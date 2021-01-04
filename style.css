@@ -80,11 +80,19 @@ section{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, tomato, orange );
     border-image-slice: 1;
+    padding-right: 10px;
+}
+#full-stack:hover{
+    color: red;
 }
 #dev-larner{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, blue, cyan );
     border-image-slice: 1;
+    padding-right: 10px;
+}
+#dev-larner:hover{
+    color: red;
 }
 footer p{
     text-align: center;
@@ -92,4 +100,8 @@ footer p{
 }
 a:hover {
 font-size: 150%;
+}
+#wsb{
+    text-decoration: none;
+    font-weight: 700;
 }
