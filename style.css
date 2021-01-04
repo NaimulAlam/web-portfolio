@@ -1,10 +1,15 @@
 body{
-    margin: 0%;
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 h1{
     font-size: 50px;
     font-family: 'Sedgwick Ave Display', cursive;
+    text-align: center;
+}
+.main{
+    font-size: 65px;
+    text-align: left;
 }
 h2{
     font-size: 40px;
@@ -20,12 +25,13 @@ p{
 }
 .half-width{
     width: 40%;
-    float: left;
     margin-left: 5%;
     padding-left: 2%;
+    float: left;
 }
 .half-width img{
     width: 100%;
+    border-radius: 8%;
 }
 .banner{
     background-image: url("images/top-banner.png");
@@ -33,15 +39,7 @@ p{
 }
 section{
     height: 500px;
-    padding-bottom: 200px;
-}
-.fb-button{
-    text-decoration: none;
-    background-image: linear-gradient(lightblue, darkblue);
-    padding: 10px 20px;
-    border-radius: 5px;
-    color: white;
-    font-weight: 700;
+    padding-bottom: 150px;
 }
 .link-button{
     text-decoration: none;
@@ -50,10 +48,6 @@ section{
     border-radius: 5px;
     color: white;
     font-weight: 700;
-}
-#naim2{
-    border: black;
-    padding: 5px 2px blue;
 }
 .dream-area{
     background-image: url("images/dream-bg.png");
@@ -65,7 +59,7 @@ section{
 }
 .single-experience{
     box-shadow: 10px 10px 40px gray;
-    border-radius: 10px;
+    border-radius: 5px;
     height: 80%;
     background-color: white;
 }
@@ -74,17 +68,28 @@ section{
     background-repeat: no-repeat;
     background-position: left;
 }
+.fb-button{
+    text-decoration: none;
+    background-image: linear-gradient(lightblue, darkblue);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
 #full-stack{
     border-left: 7px solid;
-    border-image: linear-gradient(180deg, lightsalmon, tomato );
+    border-image: linear-gradient(180deg, tomato, orange );
     border-image-slice: 1;
 }
 #dev-larner{
     border-left: 7px solid;
-    border-image: linear-gradient(180deg, lightblue, darkblue );
+    border-image: linear-gradient(180deg, blue, cyan );
     border-image-slice: 1;
 }
 footer p{
     text-align: center;
     font-size: 14px;
+}
+a:hover {
+font-size: 150%;
 }
