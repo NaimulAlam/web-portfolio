@@ -7,11 +7,10 @@ h1{
     font-family: 'Sedgwick Ave Display', cursive;
 }
 h2{
-    font-size: 45px;
-    font-family: 'Sedgwick Ave Display', cursive
+    font-size: 40px;
 }
 h3{
-    font-size: 35px;
+    font-size: 30px;
 }
 p{
     color: dimgray;
@@ -62,7 +61,7 @@ section{
     background-position: right;
 }
 .orange-color{
-    color: gold;
+    color: orange;
 }
 .single-experience{
     box-shadow: 10px 10px 40px gray;
